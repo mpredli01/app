@@ -1,6 +1,7 @@
 *.iml
 *.ipr
 *.iws
+gist.txt
 .idea/
 .gradle/
 out/

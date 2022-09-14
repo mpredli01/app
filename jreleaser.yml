@@ -16,7 +16,7 @@ project:
 release:
   github:
     overwrite: true
-    sign: true
+    # sign: true
     discussionCategoryName: 'Announcements'
     changelog:
       formatted: 'ALWAYS'
@@ -26,7 +26,7 @@ release:
         format: '- {{contributorName}}{{#contributorUsernameAsLink}} ({{.}}){{/contributorUsernameAsLink}}'
 
 signing:
-  active: always
+  active: never # always
   armored: true
 
 packagers:
